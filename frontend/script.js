@@ -75,7 +75,7 @@ const cameraFeed = document.getElementById('cameraFeed');
             showStatus('Unveiling the Mysteries...', 'info');
 
             try {
-                const response = await fetch('http://localhost:3000/generate-content', {
+                const response = await fetch('https://rekhachithram.onrender.com/generate-content', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
