@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>RekhaChitram</title>
+</head>
+<body>
+    <div class="app-bar">
+        <div class="title">RekhaChitram</div>
+    </div>
+
+    <div class="main-content">
+        <div class="desc">Rekhachitram - Your Personal Palm Analyzer<br>
+        <h4 class="desc-two">Give your Palm Image and we will provide your Future!!!! Beware if you are too sensitive!</h4>
+        </div>
+        <div class="camera-section">
+            <h2 class="camera-title">Spread Your Palms</h2>
+            <video id="cameraFeed" autoplay playsinline></video>
+            
+            <div class="button-group">
+                <button id="startButton">Camera</button>
+                <button id="captureButton" disabled>Capture Palm</button>
+                <button id="generateButton" disabled>Predict Future</button>
+            </div>
+            
+            <canvas id="canvas" class="hidden"></canvas>
+            <div id="status"></div>
+        </div>
+        
+        <div id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
