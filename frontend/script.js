@@ -23,7 +23,8 @@ const cameraFeed = document.getElementById('cameraFeed');
                 stream = await navigator.mediaDevices.getUserMedia({ 
                     video: { 
                         width: { ideal: 1280 },
-                        height: { ideal: 720 }
+                        height: { ideal: 720 },
+                        facingMode: { ideal: 'environment' }
                     } 
                 });
                 
