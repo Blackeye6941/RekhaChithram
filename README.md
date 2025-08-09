@@ -44,7 +44,7 @@ For Software:The program was implemented using html, css, js for frontend and a 
 <img src="images/code.png" alt="app"/>
 *Code*
 
-<img src="images/app.png" alt="app"/>
+<img src="images/project.png" alt="app"/>
 *App*
 
 <img src="images/last.png" alt="app"/>
